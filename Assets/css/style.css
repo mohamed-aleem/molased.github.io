@@ -15,9 +15,38 @@
 
     font-family: ArJozor-Flat;
     src: url('../fonts/JF-Flat-regular.ttf');
+
+}
+
+@font-face {
+
+    font-family: ArHelve;
+    src: url('../fonts/HelveticaNeueLT-W20%2045-Light.ttf');
+
+    font-weight: light;
+    font-style: normal;
 }
 
 
+@font-face {
+
+    font-family: ArHelve;
+    src: url('../fonts/HelveticaNeueLT%20Arabic%2055%20Roman.ttf');
+
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+
+    font-family: ArHelve;
+    src: url('../fonts/HelveticaNeueLT%20Arabic%2055%20Roman.ttf');
+
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
 
@@ -121,6 +150,24 @@
 }
 
 
+.interview-container {
+
+    background-color: white;
+    width: 100%;
+    height: 500%;
+
+    overflow: hidden;
+    transition: background-color 0.5s, width 1s, height 1s;
+
+}
+.interview-container.animate {
+    background-color: hsl(0,0%,98%);
+    width: 20%;
+    height: 50%;
+}
+
+
+
 .interview-image-container {
 
     height: 500px;
@@ -130,4 +177,44 @@
     background-repeat: no-repeat;
 
 
+    transition: background-size 1s, background-position 1s, transform 0.5s;
+
 }
+
+.interview-container.animate .interview-image-container{
+
+
+
+
+    background-size: auto 100px;
+    background-position: 50% 50%;
+}
+
+
+
+
+
+/***********************/
+/*#site interview content page  */
+/***********************/
+
+
+
+
+
+.social [class*="fa fa-"] {
+
+    border-color: transparent;
+    border-radius: 20px;
+    color: #fff;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    margin: auto 2px;
+    width: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+
