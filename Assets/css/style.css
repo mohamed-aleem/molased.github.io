@@ -41,9 +41,9 @@
 @font-face {
 
     font-family: ArHelve;
-    src: url('../fonts/HelveticaNeueLT%20Arabic%2055%20Roman.ttf');
+    src: url('../fonts/HelveticaNeueLT%20Arabic%2075%20Bold.ttf');
 
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 
 }
@@ -459,7 +459,7 @@
     bottom: 0;
     left: 0;
 
-    height: 100%;
+    height: 100vh;
     width: 100%;
 
     background-color: white;
@@ -590,6 +590,7 @@
 
     margin-right: 10px;
 
+    outline: none;
 
 
 
@@ -655,6 +656,15 @@
 
 }
 
+
+.footer-section {
+
+    position: relative;
+    width:100%;
+    height: 150px;
+
+    background-color: #242222
+}
 .footer-section .separator {
 
     position: relative; top: 100px; width: 90%; background-color: hsl(0,0%,15%);
