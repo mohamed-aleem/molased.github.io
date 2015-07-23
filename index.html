@@ -10,7 +10,7 @@
 </head>
 <body>
 
-
+    <div id="site-wrapper" style="position: relative;">
     <div class="site-nav">
         <ul>
             <li><a href="#">احنا مين</a></li>
@@ -67,7 +67,7 @@
             <div class="col-md-offset-1 col-md-5" >
                 <div class="interview-details">
                     <div class="interview-date" >
-                        <p>5 يوليو</p>
+                        <p style="direction: rtl;">22 يوليو</p>
                     </div>
                     <div class="person-details">
                         <h3>محمد جمال</h3>
@@ -94,7 +94,7 @@
             <div class="col-md-5" >
                 <div class="interview-details">
                     <div class="interview-date" >
-                        <p style="text-align: right;">5 يوليو</p>
+                        <p style="text-align: right; direction: rtl;">22 يوليو</p>
                     </div>
                     <div class="person-details">
                         <h3>احمد سيف</h3>
@@ -114,7 +114,7 @@
             <div class="col-md-offset-1 col-md-5">
                 <div class="interview-details">
                     <div class="interview-date" >
-                        <p>5 يوليو</p>
+                        <p style="direction: rtl;">22 يوليو</p>
                     </div>
                     <div class="person-details">
                         <h3>احمد بوليكا</h3>
@@ -183,11 +183,7 @@
        </div>
    </div>
 
-    <a href="#"><button id="close-content-button"><span class="fa fa-close"></span> </button></a>
-    <div class="container-fluid interview-content" style="text-align: right; direction: rtl;">
 
-
-    </div>
 
 
 
@@ -195,6 +191,13 @@
 <!--    need to remove while offline, maybe added while doing the stuff   -->
     <div class="overlay"></div>
 
+    </div>
+
+
+<!--    get out of site wrapper to show overlay content-->
+    <a href="#"><button id="close-content-button"><span class="fa fa-close"></span> </button></a>
+    <div class="container-fluid interview-content" style="text-align: right; direction: rtl;">
+    </div>
 
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="Assets/js/bootstrap.min.js"></script>

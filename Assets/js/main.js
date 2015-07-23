@@ -45,7 +45,8 @@ $(function () {
 
         $('.interview-content').removeClass('animate');
         $('#close-content-button').removeClass('animate');
-        $('#previews-container').removeClass('no-scroll');
+        //$('#previews-container').removeClass('no-scroll');
+        $('#site-wrapper').removeClass('no-scroll');
 
         setTimeout(function() {
 
@@ -85,7 +86,8 @@ $(function () {
                     $('.interview-content').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',
                                                 function(e) {
 
-                        $('#previews-container').addClass('no-scroll');
+                        //$('#previews-container').addClass('no-scroll');
+                        $('#site-wrapper').addClass('no-scroll');
                         $('#close-content-button').addClass('animate');
 
                     });
