@@ -229,6 +229,9 @@
 
 
 
+
+
+
 /***********************/
 /*#site interview content page  */
 /***********************/
@@ -485,6 +488,36 @@
 
 
 
+/***********************/
+/*#site navigation bar section  */
+/***********************/
+
+
+.site-nav {
+
+    background-color: #242222;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+.site-nav li {
+
+    float: left;
+    margin-left: 10px;
+    list-style: none;
+}
+
+.site-nav a {
+
+    color: white;
+    font-family: ArHelve;
+    font-size: 13px;
+}
+
+
+
+
 
 
 /***********************/
@@ -524,3 +557,128 @@
     display: inline-block;
     margin: 0 auto;
 }
+
+.subscription-section p {
+
+    color: white; font-family: ArHelve; font-size: 14px; width: 70%; margin: 20px auto; line-height: 30px;
+
+}
+
+
+.subscription-section input {
+
+    width: 60%;
+    height:50px;
+
+    line-height: 30px;
+    padding: 5px 20px;
+
+
+    font-family: ArHelve;
+    text-align: right;
+
+
+
+}
+
+
+
+.subscription-section button {
+
+    padding: 10px 40px;
+    height: 50px;
+
+    margin-right: 10px;
+
+
+
+
+    color: white;
+    background-color: hsl(0,0%,24%);
+    font-family: ArHelve;
+
+    border: none;
+
+}
+
+
+.navigate-down-arrow {
+
+    position: absolute;
+    bottom: 20px;
+    left:50%;
+
+
+    color: white;
+}
+
+
+
+
+
+/***********************/
+/*#site social follow section  */
+/***********************/
+
+
+.social-follow-section div {
+
+    width: 60%;
+    max-width: 900px;
+    margin: 100px auto;
+
+
+    text-align: center;
+
+}
+
+.social-follow-section img {
+
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/***********************/
+/*#site footer section  */
+/***********************/
+
+
+.footer-nav li {
+
+    float: right; margin-right: 20px;
+
+}
+
+.footer-section .separator {
+
+    position: relative; top: 100px; width: 90%; background-color: hsl(0,0%,15%);
+
+}
+
+
+.rights-reserved {
+
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+
+    text-align:left;
+}
+
+.rights-reserved p {
+
+    color: white;
+    font-family: ArHelve;
+    font-size: 10px;
+
+}
+
+
+
+

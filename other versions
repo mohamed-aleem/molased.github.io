@@ -1,0 +1,159 @@
+
+<!--
+
+<div class="row">
+<div class="col-md-offset-1 col-md-5">
+<div class="interview-details">
+<div class="interview-date" >
+<p>5 اكتوبر</p>
+</div>
+<div class="person-details">
+<h3>محمد جمال</h3>
+<p>مؤسس كتبنا</p>
+</div>
+<div class="person-quote">
+<p>
+ما أقدرش أشتغل في هدوء.. مستحيل.. لازم زحمة حواليا
+</p>
+</div>
+</div>
+
+</div>
+<div class="col-md-5">
+<img src="Assets/imgs/mohamed-gamal.png" style="height: 500px; padding: 100px;">
+</div>
+</div>
+<div class="separator"></div>
+<div class="row">
+<div class="col-md-5 col-md-offset-1">
+<img src="Assets/imgs/ahmed-saif.jpg" style="height: 500px; padding: 100px;">
+</div>
+<div class="col-md-5">
+<div class="interview-details">
+<div class="interview-date" >
+<p style="text-align: right;">5 اكتوبر</p>
+</div>
+<div class="person-details">
+<h3>محمد جمال</h3>
+<p>مؤسس كتبنا</p>
+</div>
+<div class="person-quote">
+<p>
+ما أقدرش أشتغل في هدوء.. مستحيل.. لازم زحمة حواليا
+</p>
+</div>
+</div>
+
+</div>
+
+</div>
+<div class="separator"></div>
+<div class="row">
+<div class="col-md-offset-1 col-md-5">
+<div class="interview-details">
+<div class="interview-date" >
+<p>5 اكتوبر</p>
+</div>
+<div class="person-details">
+<h3>محمد جمال</h3>
+<p>مؤسس كتبنا</p>
+</div>
+<div class="person-quote">
+<p>
+ما أقدرش أشتغل في هدوء.. مستحيل.. لازم زحمة حواليا
+</p>
+</div>
+</div>
+
+</div>
+<div class="col-md-5">
+<div class="image-container" style="height: 500px; padding: 100px">
+
+
+<div  style="height: 100%; width: 100%; background-image: url('Assets/imgs/ahmed-bolica.jpg'); background-size: cover; background-position: 50% 0%;" ></div>
+
+</div>
+</div>
+</div>
+
+
+
+
+<div class="row">
+<div class="col-md-offset-1 col-md-5" >
+<div class="interview-details">
+<div class="interview-date" >
+<p>5 اكتوبر</p>
+</div>
+<div class="person-details">
+<h3>محمد جمال</h3>
+<p>مؤسس كتبنا</p>
+</div>
+<div class="person-quote">
+<p>
+ما أقدرش أشتغل في هدوء.. مستحيل.. لازم زحمة حواليا
+</p>
+</div>
+</div>
+
+</div>
+<div class="col-md-5"  style="background-image: url('Assets/imgs/mohamed-gamal.png'); background-size: cover; background-position: 50% 0%; border-bottom: solid 1px hsl(0,0%,92%);">
+
+<div  style="height: 500px; padding: 100px;" ></div>
+
+</div>
+
+</div>
+<div class="row">
+<div class="col-md-offset-1  col-md-5" style="background-image: url('Assets/imgs/ahmed-saif.jpg'); background-size: cover; background-repeat: none; background-position: 50% 0%;">
+
+<div  style="height: 500px;  "></div>
+
+</div>
+<div class="col-md-5" >
+<div class="interview-details">
+<div class="interview-date" >
+<p style="text-align: right;">5 اكتوبر</p>
+</div>
+<div class="person-details">
+<h3>محمد جمال</h3>
+<p>مؤسس كتبنا</p>
+</div>
+<div class="person-quote">
+<p>
+ما أقدرش أشتغل في هدوء.. مستحيل.. لازم زحمة حواليا
+</p>
+</div>
+</div>
+
+</div>
+
+
+</div>
+<div class="row">
+<div class="col-md-offset-1 col-md-5">
+<div class="interview-details">
+<div class="interview-date" >
+<p>5 اكتوبر</p>
+</div>
+<div class="person-details">
+<h3>محمد جمال</h3>
+<p>مؤسس كتبنا</p>
+</div>
+<div class="person-quote">
+<p>
+ما أقدرش أشتغل في هدوء.. مستحيل.. لازم زحمة حواليا
+</p>
+</div>
+</div>
+
+</div>
+<div class="col-md-5" style="background-image: url('Assets/imgs/ahmed-bolica.jpg'); background-size: cover; background-position: 50% 0%;">
+
+<div  style="height: 500px; padding: 100px; " ></div>
+
+</div>
+
+</div>
+
+-->
