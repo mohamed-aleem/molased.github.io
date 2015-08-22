@@ -10,7 +10,7 @@
 <meta property="og:url" content="http://elroutine.com/saad-lotfy-science-shop/index.html">
 <meta property="og:site_name" content="Elroutine">
 <meta property="og:description" content="انا مقتنع بجملة بتقول &quot;بشكل أو بآخر القراءة تجعل منك شخص أفضل&quot; عشان كدا بحاول اقضى اطول وقت ممكن في القراءة سواء قراءة الكتب أو المقالات">
-<meta property="og:updated_time" content="2015-08-22T19:22:41.000Z">
+<meta property="og:updated_time" content="2015-08-22T19:32:54.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="سعد لطفي - مؤسس ساينس شوب">
 <meta name="twitter:description" content="انا مقتنع بجملة بتقول &quot;بشكل أو بآخر القراءة تجعل منك شخص أفضل&quot; عشان كدا بحاول اقضى اطول وقت ممكن في القراءة سواء قراءة الكتب أو المقالات">
@@ -309,8 +309,10 @@
           $('#facebook-share-button').click(function () {
               console.log('here we are in facebok share');
               FB.ui({
-                  method: 'share',
-                  href: 'http://elroutine.com/saad-lotfy-science-shop/index.html'
+                  method: 'feed',
+                  title: سعد لطفي,
+                  description: انا مقتنع بجملة بتقول "بشكل أو بآخر القراءة تجعل منك شخص أفضل" عشان كدا بحاول اقضى اطول وقت ممكن في القراءة سواء قراءة الكتب أو المقالات,
+                  image: +'profile-image.jpg'
               }, function(response){});
 
           });

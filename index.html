@@ -447,8 +447,10 @@
           $('#facebook-share-button').click(function () {
               console.log('here we are in facebok share');
               FB.ui({
-                  method: 'share',
-                  href: 'http://elroutine.com/index.html'
+                  method: 'feed',
+                  title: ,
+                  description: ,
+                  image: +'profile-image.jpg'
               }, function(response){});
 
           });
