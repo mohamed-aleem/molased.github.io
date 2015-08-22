@@ -97,6 +97,20 @@
     text-align: center;
 }
 
+.social.social-big [class*="fa fa-"] {
+
+    border-color: transparent;
+    border-radius: 80px;
+    color: #fff;
+
+    height: 50px;
+    line-height: 50px;
+    margin: auto 10px;
+    width: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
 
 .share-interview-button {
 
