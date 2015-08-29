@@ -78,9 +78,10 @@
 }
 .-meta--title {
 
-    font-family: ArJozor;
+    font-family: ArHelve;
+    
     font-size: 12px; 
-    color: #87D37C;
+    color: #F8887C;
 }
 
 .social [class*="fa fa-"] {

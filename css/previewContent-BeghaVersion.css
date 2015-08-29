@@ -3,8 +3,22 @@
 
                 font-family: ArJozor;
                 src: url('../fonts/AraJozoor-Regular.ttf');
+                
+            }
+            
+            @font-face {
+
+                font-family: ArDroidKufi;
+                src: url('../fonts/DroidKufi-Regular.ttf');
+                
             }
 
+            @font-face {
+
+                font-family: ArDroidKufiB;
+                src: url('../fonts/DroidKufi-Bold.ttf');
+                
+            }
 
             @font-face {
 
@@ -111,7 +125,7 @@
                 direction: rtl; 
                 text-align: right;
                 
-                font-family: ArJozor;
+                font-family: ArDroidKufi;
               }
             
             .-bottom-left-side {
@@ -132,11 +146,9 @@
             .person-title {
             
                 padding: 5px 15px;
+                font-family: ArDroidKufiB;
+                font-size: 15px;
                 
-                font-size: 14px;
-                
-                font-family: ArHelve;
-                font-weight: bold;
                 color: #F8887C ;
             }
             
@@ -165,18 +177,9 @@
                 border: 1px solid hsl(0,0%,20%);
                 margin-top: 25px;
                 
-                font-size: 12px;
+                font-size: 13px;
                 
                 padding: 10px 30px;
-                
-                transition: background-color 0.5s;
-            }
-            
-            .read-more:hover {
-              
-              background-color: black;
-              color: white;
-              
             }
             
             
